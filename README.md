@@ -1,45 +1,70 @@
 # Mood2Emoji
-Built a Kid-safe Text-Mood Detector using Streamlit + TextBlob (rule based) .Created a simple web app that takes a short sentence and returns a kid-friendly emoji (😀 😐 😞) giving a one-line explanation. 
-Suitable for students aged 12–16.
 
+**Kid-safe Text-Mood Detector**  
+Convert any short sentence into a kid-friendly emoji with a quick explanation.
 
-Project summary
+---
 
-Mood2Emoji is a compact, educational web application that converts a short, age-appropriate sentence into one of three mood outcomes — happy, neutral, or sad — accompanied by a brief explanatory phrase. The application is intentionally lightweight: it uses a local safety filter and straightforward sentiment analysis (TextBlob) with a minimal negation heuristic. It is designed for classroom demonstration and small hands-on exercises for learners aged 12–16.
+![image1](image1)
 
-**Key features**
+## Features
 
-Single input box for a short sentence.
-Local safety filter that neutralizes inappropriate content.
-Lightweight sentiment extraction using TextBlob polarity.
-Simple negation handling to improve basic accuracy on phrases such as “not happy.”
-Deterministic mapping of polarity scores to the three mood outputs.
-Optional Teacher Mode that presents token-level evidence and a concise process diagram for instruction.
+- **Text ➔ Emoji in one click:**  
+  Enter a sentence and instantly get a kid-friendly emoji (😀 / 😐 / 😞) plus a simple explanation.
+- **Safety-first:**  
+  Local filter blocks explicit/inappropriate words (neutral fallback if triggered).
+- **Simple sentiment analysis:**  
+  Uses [TextBlob](https://textblob.readthedocs.io/en/dev/) to detect mood, with a rule for handling negation.
+- **Teacher Mode:**  
+  Shows evidence and process for transparency and teaching.
 
+![image2](image2)
 
-**Setup and run instructions (precise)**
+---
 
-Clone the repository and change directory:
+## Installation
 
-git clone https://github.com/<USERNAME>/firstname-lastname-mood2emoji.git
-cd firstname-lastname-mood2emoji
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/Kavish-Paraswar/Kavish-Paraswar-Mood2Emoji.git
+    cd Kavish-Paraswar-Mood2Emoji
+    ```
 
+2. **Create and activate a Python 3.9+ virtual environment:**
+    ```sh
+    python3 -m venv venv
+    # macOS / Linux
+    source venv/bin/activate
+    # Windows (PowerShell)
+    venv\Scripts\Activate.ps1
+    ```
 
-Create and activate a Python 3.9+ virtual environment:
+3. **Install dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-python3 -m venv venv
-# macOS / Linux
-source venv/bin/activate
-# Windows (PowerShell)
-venv\Scripts\Activate.ps1
+4. **(Optional) Download TextBlob corpora if prompted:**
+    ```sh
+    python -m textblob.download_corpora
+    ```
 
-Install dependencies:
-pip install -r requirements.txt
+5. **Run the app:**
+    ```sh
+    streamlit run app.py
+    ```
+    Open the address provided by Streamlit (usually [http://localhost:8501](http://localhost:8501)).
 
-(Optional) If TextBlob requests additional corpora, run this once:
-python -m textblob.download_corpora
+---
 
+## License
 
-Launch the application:
-streamlit run app.py
-Open the URL printed by Streamlit (commonly http://localhost:8501).
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+
+Kavish Paraswar  
+📧 [kavishp9721@gmail.com](mailto:kavishp9721@gmail.com)  
+📱 +91 93226 45212
