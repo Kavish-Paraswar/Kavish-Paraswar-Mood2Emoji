@@ -1,11 +1,13 @@
 # Mood2Emoji
 
 **Kid-safe Text-Mood Detector**  
-Convert any short sentence into a kid-friendly emoji with a quick explanation.
+
+Mood2Emoji is a compact, classroom-oriented web application that converts a short, age-appropriate sentence into one of three kid-friendly emojis (😀 / 😐 / 😞) accompanied by a single-line explanation. The implementation is deliberately lightweight (Streamlit + TextBlob or a small rule-based approach), prioritizes transparency and safety, and is intended for learners aged 12–16.
 
 ---
+<img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/83325efb-c1cd-4001-aefa-23af51aff2c4" />
 
-![image1](image1)
+
 
 ## Features
 
@@ -18,7 +20,8 @@ Convert any short sentence into a kid-friendly emoji with a quick explanation.
 - **Teacher Mode:**  
   Shows evidence and process for transparency and teaching.
 
-![image2](image2)
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/3eabc390-e996-4d1b-9e89-dd092b55f9bd" />
+
 
 ---
 
@@ -54,14 +57,6 @@ Convert any short sentence into a kid-friendly emoji with a quick explanation.
     streamlit run app.py
     ```
     Open the address provided by Streamlit (usually [http://localhost:8501](http://localhost:8501)).
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
 
 ## Contact
 
