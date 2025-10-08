@@ -3,7 +3,9 @@
 It is a compact, classroom-oriented web application that converts a short, age-appropriate sentence into one of three kid-friendly emojis (😀 / 😐 / 😞) accompanied by a single-line explanation. The implementation is deliberately lightweight (Streamlit + TextBlob or a small rule-based approach), prioritizes transparency and safety, and is intended for learners aged 12–16.
 
 <img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/83325efb-c1cd-4001-aefa-23af51aff2c4" />
+
 ---
+
 ## Features
 
 - **Text ➔ Emoji in one click:**  
