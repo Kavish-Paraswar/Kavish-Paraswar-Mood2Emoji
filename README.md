@@ -1,6 +1,6 @@
 ## Mood2Emoji
 
-## What the project does
+## Introduction
 Mood2Emoji is a simple tool that maps a user's mood to fun emojis.  
 - Kids interact with it to see how feelings can be expressed visually.  
 - Promotes emotional awareness and digital expression.
