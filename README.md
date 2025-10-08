@@ -1,9 +1,10 @@
 ## Mood2Emoji
 
-It is a compact, classroom-oriented web application that converts a short, age-appropriate sentence into one of three kid-friendly emojis (😀 / 😐 / 😞) accompanied by a single-line explanation.
-
-The implementation is deliberately lightweight (Streamlit + TextBlob or a small rule-based approach) and prioritizes transparency and safety also is intended for learners aged 12–16.
-
+## What the project does
+Mood2Emoji is a simple tool that maps a user's mood to fun emojis.  
+- Kids interact with it to see how feelings can be expressed visually.  
+- Promotes emotional awareness and digital expression.
+  
 <img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/83325efb-c1cd-4001-aefa-23af51aff2c4" />
 
 ---
@@ -56,5 +57,34 @@ The implementation is deliberately lightweight (Streamlit + TextBlob or a small 
     Open the address provided by Streamlit (http://localhost:8501).
    
 ---
+
+## How kids learn from it
+- Kids learn about emotions and how they can be represented using emojis.
+- They get hands-on experience with interactive web tools.
+- Encourages creativity and helps children relate emotions to visual cues.
+- Opens discussion about feelings in a simple, friendly way.
+
+## How to teach it in 60 minutes
+1. **Introduction (10 min):**  
+   Briefly explain emotions and emojis.
+   - Ask kids about their favorite emojis.
+2. **Demo (10 min):**  
+   Show Mood2Emoji, let kids try mapping moods to emojis.
+   - Demonstrate how the tool works with a few examples.
+3. **Explore (20 min):**  
+   Kids experiment, share what emojis they chose for different moods.
+   - Encourage group sharing and discussion.
+4. **Discuss (10 min):**  
+   Talk about why certain emojis fit certain moods.
+   - Explore how different people might pick different emojis for the same mood.
+5. **Wrap-up (10 min):**  
+   Recap concepts, encourage kids to think about expressing emotions.
+   - Suggest ways to use emojis in daily digital conversations.
+
+## Known limitations
+- Only basic moods/emojis supported; users can't add custom moods or emojis, and the choices are limited to a small preset list.
+- No advanced features or data storage.
+- Limited to browser usage.
+- Not designed for large datasets or complex folders, keeping it minimal and clean.
 
 Thank you for visiting.
